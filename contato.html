@@ -7,8 +7,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Contato</h1>
-        <p class="p-blue">Tire suas dúvidas em <a href="tel:+5585999887766">(85) 99988-7766</a></p>
-        <a href="./index.html">↪ Voltar para página inicial</a>
+        <form>
+            <div class="primary-box">
+                <div>
+                    <label>nome</label>
+                    <input type="text" placeholder="seu nome" />
+                </div>
+                <div>
+                    <label>telefone</label>
+                    <input type="tel" placeholder="(xx) xxxx-xxxx" />
+                </div>
+            </div>
+            <div>
+                <label>email</label>
+                <input type="email" placeholder="contato@email.com">
+            </div>
+            <div>
+                <label>mensagem</label>
+                <textarea placeholder="o que você precisa?"></textarea>
+            </div>
+            <button>enviar mensagem</button>
+        </form>
     </body>
 </html>
